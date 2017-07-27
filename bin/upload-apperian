@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+'use strict';
+const minimist = require('minimist');
+
+const argv = minimist(process.argv.slice(2));
+
+const username = argv.username || argv.u;
+const password = argv.password || argv.p;
+const appId = argv.appid || argv.i;
+const filePath = argv.filepath || argv._[0];
+const appType = argv.apptype || argv.t;
+const appName = argv.appname || argv.n;
+const appVersion = argv.appversion || argv.v;
+const appAuthor = argv.appauthor || argv.a;
+const longDescription = argv.longdesc || argv.l;
+const shortDescription = argv.shortdesc || argv.s;
+const versionNotes = argv.versionnotes || argv.c;
+const isCreate = argv.create;
+const showHelp = argv.h;
+const doLog = argv.dolog;
+const uploadApperian = require('../lib/upload-apperian');
+
+uploadApperian.uploadApperian({
+	username: username,
+	password: password,
+	appId: appid,
+	filePath: filepath,
+	appType: apptype,
+	appName: appname,
+	appVersion: appversion,
+	appAuthor: appauthor,
+	longDescription: longdesc,
+	shortDescription: shortdesc,
+	versionNotes: versionnotes,
+	isCreate: create,
+	doLog: dolog
+});

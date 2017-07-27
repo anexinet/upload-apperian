@@ -1,0 +1,33 @@
+{
+	"name": "upload-apperian",
+	"version": "1.0.0",
+	"description": "Upload apps using the Apperian REST API",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "grunt",
+		"test": "./node_modules/mocha/bin/mocha",
+		"start": "./bin/upload-apperian"
+	},
+	"keywords": [
+		"Upload",
+		"Apperian",
+		"REST",
+		"API"
+	],
+	"author": "Propelics Inc.",
+	"license": "ISC",
+	"dependencies": {
+		"cli-spinner": "^0.2.6",
+		"form-data": "^2.1.4",
+		"minimist": "^1.2.0",
+		"request": "^2.81.0",
+		"underscore": "^1.8.3"
+	},
+	"devDependencies": {
+		"grunt": "^1.0.1",
+		"grunt-contrib-jshint": "^1.1.0",
+		"grunt-jsbeautifier": "^0.2.13",
+		"jshint-stylish": "^2.2.1",
+		"mocha": "^3.4.2"
+	}
+}
