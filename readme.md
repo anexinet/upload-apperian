@@ -1,7 +1,7 @@
-#Upload to Apperian Script
+# Upload to Apperian Script
 Script to upload apps to Apperian using the Apperian API
 
-##Usage
+## Usage
 
 ```bash
 node index.js --username <username or email> --password <password> --appid com.propelics.test --apptype <ios|android|microsoft> --filepath "~/Documents/App.ipa" [--appname AppName] [--appversion 3.0.1] [--appauthor Propelics] [--longdesc "Long Description"] [--shortdesc "Description"] [--versionnotes "Version Notes"] [--create true] [-h]
