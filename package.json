@@ -16,6 +16,9 @@
 	],
 	"homepage": "https://github.com/propelics/upload-apperian",
 	"bugs": "https://github.com/propelics/upload-apperian/issues",
+	"bin": {
+		"upload-apperian": "./bin/upload-apperian"
+	},
 	"author": "Propelics Inc.",
 	"contributors": [
 		"Carlos Enciso <carlos.enciso.morones@gmail.com>"
