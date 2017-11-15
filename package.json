@@ -1,6 +1,6 @@
 {
 	"name": "@propelics/upload-apperian",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Upload apps using the Apperian REST API",
 	"main": "index.js",
 	"scripts": {
