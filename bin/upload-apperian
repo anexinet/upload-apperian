@@ -23,15 +23,15 @@ const uploadApperian = require('../lib/upload-apperian');
 uploadApperian.uploadApperian({
 	username: username,
 	password: password,
-	appId: appid,
-	filePath: filepath,
-	appType: apptype,
-	appName: appname,
-	appVersion: appversion,
-	appAuthor: appauthor,
-	longDescription: longdesc,
-	shortDescription: shortdesc,
-	versionNotes: versionnotes,
-	isCreate: create,
-	doLog: dolog
+	appId: appId,
+	filePath: filePath,
+	appType: appType,
+	appName: appName,
+	appVersion: appVersion,
+	appAuthor: appAuthor,
+	longDescription: longDescription,
+	shortDescription: shortDescription,
+	versionNotes: versionNotes,
+	isCreate: isCreate,
+	doLog: doLog
 });
