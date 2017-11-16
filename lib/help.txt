@@ -13,5 +13,6 @@ Options:
   -s, --shortdesc     Short description
   -c, --versionnotes  Version notes
   --create            Set `true` to upload a new App, default: false
+  --sign              Signing Credentials description, this needs to be the exact description
   -h                  Show this help
   --dolog             Show console logging, default: false

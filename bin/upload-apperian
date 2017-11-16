@@ -18,6 +18,7 @@ const versionNotes = argv.versionnotes || argv.c;
 const isCreate = argv.create;
 const showHelp = argv.h;
 const doLog = argv.dolog;
+const sign = argv.sign;
 const uploadApperian = require('../lib/upload-apperian');
 
 uploadApperian.uploadApperian({
@@ -33,5 +34,6 @@ uploadApperian.uploadApperian({
 	shortDescription: shortDescription,
 	versionNotes: versionNotes,
 	isCreate: isCreate,
-	doLog: doLog
+	doLog: doLog,
+	sign: sign
 });
