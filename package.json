@@ -1,6 +1,6 @@
 {
 	"name": "@propelics/upload-apperian",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Upload apps using the Apperian REST API",
 	"main": "index.js",
 	"scripts": {
@@ -20,10 +20,12 @@
 		"upload-apperian": "./bin/upload-apperian"
 	},
 	"author": "Propelics Inc.",
-	"contributors": [{
-		"name": "Carlos Enciso Morones",
-		"email": "carlos.enciso.morones@gmail.com"
-	}],
+	"contributors": [
+		{
+			"name": "Carlos Enciso Morones",
+			"email": "carlos.enciso.morones@gmail.com"
+		}
+	],
 	"license": "ISC",
 	"repository": {
 		"type": "git",
