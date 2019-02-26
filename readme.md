@@ -4,7 +4,7 @@ Script to upload apps to Apperian using the Apperian API
 ## Usage
 
   ```bash
-  node index.js --username <username or email> --password <password> --appid com.propelics.test --apptype <ios|android|microsoft> --filepath "~/Documents/App.ipa" [--appname AppName] [--appversion 3.0.1] [--appauthor Propelics] [--longdesc "Long Description"] [--shortdesc "Description"] [--versionnotes "Version Notes"] [--create true] [-h]
+  node index.js --username <username or email> --password <password> --appid com.propelics.test --apptype <ios|android|microsoft> --filepath "~/Documents/App.ipa" [--appname AppName] [--appversion 3.0.1] [--appauthor Propelics] [--longdesc "Long Description"] [--shortdesc "Description"] [--versionnotes "Version Notes"] [--create true] [-h] [--sign "Description"] [--deviceid "(GUID)"]
 
   Options:
     -u, --username		Apperian username
@@ -21,6 +21,7 @@ Script to upload apps to Apperian using the Apperian API
     --create			Set `true` to upload a new App, default: false
     -h				Show this help
 	--sign			Signing Credentials description, this needs to be the exact description
+	--deviceid		Device ID (GUID) to log in
     --dolog			Show console logging, default: false
   ```
 
